@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home - The Basics of Game Development</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Paris Miguel U. Bereber">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="revised" content="10-11-2020">
+		<meta name="viewport" content=width=device-width, initial-scale-scale=1.0*>
+
+		<link rel="icon" href="images/favicon.png" type="image/gif">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+<body>
+	<!--Header is found on every page-->
+	<header>
+		<!--Logo-->
+		<img src="images/logo.png" alt="Logo of Website" class="logo">
+		<!--Title-->
+		<h1 class="title">The Basics of Game Development</h1>
+		<!--Search Bar (currently does nothing}-->
+		<input type="text" placeholder="How to..." class="searchbar"> 
+	</header>
+	<!--Navigation is found on every page, but its  content changes-->
+	<nav>
+		<!--Breadcrumbs-->
+		<div class="breadcrumbs">
+			<p>Home >></p>
+		</div>
+		<!--Page Navigation-->
+		<div class="pagenav">
+			<a href="htdocs/art.html" class="pagenavlink">Game Art</a> 
+			<a href="htdocs/sound.html" class="pagenavlink">Sound Design</a>
+			<a href="htdocs/programming.html" class="pagenavlink">Programming</a> 
+		</div>
+	</nav>
+	<!--Welcome Message-->
+	<section class="welcome">
+		<!--Image-->
+		<img src="images/welcome.jpg" alt="A Picture of a Person Programming" class="welcomeimg">
+		<!--Section Title-->
+		<h2 class="welcomemsgtitle">Welcome to the Basics of Game Development!</h2>
+		<!--Message-->
+		<p class="welcomemsg">Here you'll learn how to create your first ever game. Creating a game is not hard and this website will teach the essentials on how to program and design games at your own pace. 
+		You can choose between programming, game art, and sound design. We recommend you to begin your journey in programming, but you can start with game art or sound design. 
+		After browsing this website you'll be able to create your first game in any genre you like. Now proceed below to download and install needed programs in order to begin. Have fun and goodluck!</p>
+	</section>
+	<!--Program Info and Download Links-->
+	<section class="programs">
+		<!--Tools Needed (Links to website)-->
+		<aside class="toolsneeded">
+			<!--Section Title-->
+			<h2 class="toolsneededtitle">Tools Needed</h2>
+			<!--Links-->
+			<a href="https://godotengine.org" class="toolsneededlink">Godot</a><br>
+			<a href="https://www.gimp.org/" class="toolsneededlink">GIMP</a><br>
+			<a href="https://krita.org" class="toolsneededlink">Krita</a><br>
+			<a href="https://www.bfxr.net/" class="toolsneededlink">Bfxr</a><br>
+			<a href="https://boscaceoil.net" class="toolsneededlink">Bosca Ceoil</a><br>
+		</aside>
+		<!--Program Info with Download Links-->
+		<div class="programinfo">
+			<img src="images/godot.png" alt="Logo of Godot" class="programlogo">
+			<!--Godot-->
+			<h2>Godot</h2>
+			<p>Godot is a free and open-source Game Engine, which can create both 2D and 3D games. However, this website will only teach you how to make 2D games. It is available on Windows, Mac, and Linux.
+			It uses the GDscript language which is very easy to learn, and some versions can use C# which is a very common game development scripting language. Required for Programming</p>
+			<a href="https://godotengine.org/download/windows" class="programlink">Download Godot</a><br>
+			<img src="images/gimp.png" alt="Logo of GIMP" class="programlogo">
+			<!--GIMP-->
+			<h2>GIMP</h2>
+			<p>GIMP is a free and open-source Image Manipulation Program. It is very similar to Photoshop, so if you have tried Photoshop before I recommend using GIMP. It is available on Windows, Mac, and Linux.
+			If you are a beginner I recommend using Krita. Required for Game Art</p>
+			<a href="https://www.gimp.org/downloads/" class="programlink">Download GIMP</a><br>
+			<img src="images/krita.png" alt="Logo of Krita" class="programlogo">
+			<!--Krita-->
+			<h2>Krita</h2>
+			<p>Krita is a free and open-source raster graphics editor. If you are a beginner, Krita is very easy to learn. Drawing tablets are also better to use in Krita. It is available on  Windows, Mac, Linux, Android and Chrome OS. Required for Game Art</p>
+			<a href="https://krita.org/en/download/krita-desktop/" class="programlink">Download Krita</a><br>
+			<!--Bfxr-->
+			<img src="images/bfxr.png" alt="Logo of Bfxr" class="programlogo">
+			<h2>Bfxr</h2>
+			<p>Bfxr is a free and open-source sound effect maker. It is based on Sfxr. It improved Sfxr and added more features. It is available on Windows, Mac, and on your Browser. If you are using Linux you can use Sfxr. Required for Sound Design</p>
+			<a href="https://www.bfxr.net/"  class="programlink">Download Bfxr</a>
+			<a href="http://drpetter.se/project_sfxr.html" class="programlink">Download Sfxr</a><br>
+			<!--Bosca Ceoil-->
+			<img src="images/boscaceoil.png" alt="Logo of Bosca Ceoil" class="programlogo">
+			<h2>Bosca Ceoil</h2>
+			<p>Bosca Ceoil is a free and open-source music maker. It is very easy to use and learn especially for those with no music background. It is available on Windows, Mac, Linux, and on your browser. Required for Sound Design</p>
+			<a href="https://boscaceoil.net/downloads.html" class="programlink">Download Bosca Ceoil</a><br>
+		</div>
+	</section>
+	<!--Get Started (Links to other pages)-->
+	<section class="getstarted" id="getstarted">
+		<!--Section Title-->
+		<h2 class="starttitle">Get Started!</h2>
+		<!--Programming-->
+		<div class="startsection">
+			<a href="htdocs/programming.html">Programming</a>
+			<p>Here you'll learn how to code in GDscript and create a functional game using Godot.</p>
+		</div>
+		<!--Sound Design-->
+		<div class="startsection">
+			<a href="htdocs/sound.html">Sound Design</a>
+			<p>Here you'll learn how to create sfx and music for your game using Sfxr and Bosca Ceoil.</p>
+		</div>
+		<!--Game Art-->
+		<div class="startsection">
+			<a href="htdocs/art.html">Game Art</a>
+			<p>Here you'll learn how to make art and animations for your game using GIMP or Krita.</p>
+		</div>
+	</section>
+	<!--Footer is found on every page-->
+	<footer>
+		<!--Contact-->
+		<p class="contact">Contact: b24.paris.bereber@pshs.edu.ph<p> <!--Share links non-existent because website isn't published-->
+		<!--Copyright-->
+		<p class="copyright">© 2020 Paris Bereber<p>
+		<!--Sources-->
+		<p class="sources">Sources:<br> 
+		https://www.pexels.com/photo/adult-apple-device-business-code-340152/, https://godotengine.org, https://www.gimp.org/, https://krita.org, https://www.bfxr.net/, https://boscaceoil.net
+		</p>
+	</footer>
+</body>
+</html>
+

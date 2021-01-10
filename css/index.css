@@ -1,0 +1,194 @@
+body{
+	background-color:#FCF7F8;
+}
+div, header, nav, section, aside, footer{
+	box-sizing: border-box;
+	overflow: auto;
+	font-family: Candara;
+}
+/*Header*/
+header{
+	background-color: #CCCCCC;
+	width: 100%;
+	padding: 5px;
+	border: solid 3px #364652;
+}
+.logo{
+	float: left;
+	margin-right: 10px;
+}
+.title{
+	margin: 10px 0px -10px 0px;
+}
+.searchbar{
+	float: right;
+}
+/*Navigation*/
+.breadcrumbs{
+	float: left;
+	margin-top: -11px;
+}
+.pagenavlink{
+	float: right;
+	margin: -3px 5px 10px;
+	padding: 5px;
+	background-color: #90C2E7;
+	border: outset 3px #364652;
+}
+/*Welcome*/
+.welcome{
+	padding: 10px;
+	background-color: #90C2E7;
+	border: solid 3px #364652;
+}
+.welcomeimg{
+	float: left;
+	width: 400px;
+	border: solid 3px #364652;
+	margin-right: 10px;
+}
+.welcomemsgtitle{
+	font-size: 30px;
+	text-align: center
+}
+.welcomemsg{
+	font-size: 20px;
+	margin: 20px;
+	text-align: justify;
+}
+/*Programs*/
+.programs{
+	margin: 10px 0px;
+}
+.toolsneeded{
+	float:left;
+	text-align: center;
+	background-color: #CCCCCC;
+	border: solid 3px #364652;
+	width: 20%;
+	height: 250px;
+}
+.toolsneededlink{
+	display: inline-block;
+	background-color: #90C2E7;
+	border: outset 3px #364652;
+	padding: 3px;
+	margin-bottom: 3px;
+	width: 50%;
+}
+.programinfo{
+	display: inline-block;
+	border: solid 3px #364652;
+	width: 79%;
+	margin-left: 1%;
+	padding: 10px;
+	height: 250px;
+	background-color
+	}
+.programlogo{
+	width: 60px;
+	float: left;
+	margin-right: 5px;
+}
+.programlink{
+	display: inline-block;
+	background-color: blue;
+	padding: 3px;
+	background-color: #90C2E7;
+	border: outset 3px #364652;
+	margin: 3px;
+}
+/*Get Started*/
+.starttitle{
+	text-align: center;
+	font-size: 30px;
+	margin-top: -10px;
+}
+.startsection{
+	background-color: #90C2E7;
+	text-align: center;
+	width: 32%;
+	float: left;
+	margin: -10px 0.5% 0px;
+	border: solid 3px #364652;
+	overflow: hidden;
+}
+.startsection > a{
+	display: inline-block;
+	background-color: #FCF7F8;
+	border: outset 3px #364652;
+	width: 90%;
+	padding: 5px;
+	margin: 10px 4%;
+	font-size: 24px;
+}
+/*footer*/
+footer{
+	margin-top: 10px;
+	background-color: #CCCCCC;
+	width: 100%;
+	padding: 5px;
+	border: solid 3px #364652;
+}
+.contact{
+	float: left;
+}
+.copyright{
+	margin-top: -3px;
+	float: right;
+}
+.sources{
+	clear: left;
+	font-weight: bold;
+}
+/*style of links before and after it has been clicked*/
+a:link, a:visited{ 
+	color: #364652; 
+}
+/*style of links when mouse is hovered over */
+a:hover{
+	color: #CCCCCC;
+	border-style: inset;
+}
+/*small screen devices adapter*/
+@media only screen and (max-width: 820px)  {
+	div{
+	font-size: 2vw;
+	}
+	.logo{
+	width: 18vw;
+	}
+	.title{
+	font-size: 4vw;
+	margin-top: 5px;
+	}
+	.searchbar{
+	clear: left;
+	margin-top: 5px;
+	}
+	.welcomemsgtitle{
+	font-size: 3vw;
+	clear: left;
+	text-align: center;
+	}
+	.welcomeimg{
+	width: 100%;
+	}
+	.welcomemsg{
+	font-size: 2vw;
+	clear: left;
+	}
+	p{
+	font-size: 2vw; 
+	}
+	.programinfo, .toolsneeded{
+	height: 220px;
+	}
+	.starttitle{
+	font-size: 3vw;
+	margin-top: 0px;
+	}
+	.startsection > a{
+	font-size: 3vw;
+	}
+}
