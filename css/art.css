@@ -156,6 +156,45 @@ footer{
 	margin-top: -3px;
 	float: right;
 }
+.footeryt{
+    background: url('../images/logos.png') no-repeat 0 0;
+	width: 44px;
+	height: 30px;
+	display: inline-block;
+	margin: 0 5px;
+}
+.footertwt{
+    background: url('../images/logos.png') no-repeat -4px -32px;
+	width: 37px;
+	height: 30px;
+	display: inline-block;
+	margin: 0 5px;
+}
+.footerfb{
+    background: url('../images/logos.png') no-repeat -3px -65px;
+	width: 34px;
+	height: 33px;
+	display: inline-block;
+	margin: 0 5px;
+}
+.social > a:hover{
+	border: none;
+}
+.social > a:hover > .footeryt{
+	background: url('../images/logos.png') no-repeat -45px 0;
+	width: 44px;
+	height: 30px;
+}
+.social > a:hover > .footertwt{
+	background: url('../images/logos.png') no-repeat -48px -32px;
+	width: 37px;
+	height: 30px;
+}
+.social > a:hover > .footerfb{
+	background: url('../images/logos.png') no-repeat -47px -66px;
+	width: 34px;
+	height: 33px;
+}
 .sources{
 	clear: left;
 	font-weight: bold;
