@@ -79,19 +79,40 @@ header.pagetitle{
 	margin-right: 10px;
 }
 /*Video Tutorial*/
+.videotitle{
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px -200px 0px;
+	position: absolute;
+	left: 50%;
+}
+.gdquestyt{
+    background: url('../images/youtube.png') no-repeat 0 0;
+	width: 44px;
+	height: 30px;
+	display: inline-block;
+	margin: 5px 175px 0px;
+	position: relative;
+	left: 50%;
+}
 .video{
 	margin-top: 10px;
 	padding: 10px;
 	background-color: #90C2E7;
 	border: solid 3px #364652;
 }
+.video > a:hover{
+	border: none;
+}
+.video > a:hover > div{
+	background: url('../images/youtube.png') no-repeat -45px 0;
+	width: 44px;
+	height: 30px;
+}
 .video > iframe{
 	width: 100%;
 	height: 700px;
-}
-.videotitle{
-	font-size: 30px;
-	text-align: center;
 }
 .videopart{
 	text-align: center;
@@ -151,32 +172,32 @@ a:hover{
 /*small screen devices adapter*/
 @media only screen and (max-width: 820px)  {
 	div{
-	font-size: 2vw;
+		font-size: 2vw;
 	}
 	.logo{
-	width: 18vw;
+		width: 18vw;
 	}
 	.title{
-	font-size: 4vw;
-	margin-top: 5px;
+		font-size: 4vw;
+		margin-top: 5px;
 	}
 	.searchbar{
-	clear: left;
-	margin-top: 5px;
+		clear: left;
+		margin-top: 5px;
 	}
 	.pagetitle{
-	font-size: 3vw;
-	clear: left;
-	text-align: center;
+		font-size: 3vw;
+		clear: left;
+		text-align: center;
 	}
 	p{
-	font-size: 2vw; 
+		font-size: 2vw; 
 	}
 	.learntitle{
-	font-size: 3vw;
+		font-size: 3vw;
 	}
 	.learnsection > a{
-	font-size: 3vw;
+		font-size: 3vw;
 	}
 	.video > iframe{
 		width: 100%;
