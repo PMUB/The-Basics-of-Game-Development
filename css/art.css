@@ -88,7 +88,7 @@ header.pagetitle{
 	left: 50%;
 }
 .riotyt{
-    background: url('../images/youtube.png') no-repeat 0 0;
+    background: url('../images/logos.png') no-repeat 0 0;
 	width: 44px;
 	height: 30px;
 	display: inline-block;
@@ -106,7 +106,7 @@ header.pagetitle{
 	border: none;
 }
 .video > a:hover > div{
-	background: url('../images/youtube.png') no-repeat -45px 0;
+	background: url('../images/logos.png') no-repeat -45px 0;
 	width: 44px;
 	height: 30px;
 }
