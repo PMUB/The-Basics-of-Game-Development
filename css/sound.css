@@ -51,7 +51,6 @@ header.pagetitle{
 	border: solid 3px #364652;
 	font-size: 30px;
 	text-align: center;
-	line-height: 0px;
 }
 header.pagetitle > p{
 	font-size: 16px;
