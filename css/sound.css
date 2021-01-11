@@ -231,20 +231,29 @@ a:hover{
 		clear: left;
 		margin-top: 5px;
 	}
-	.pagetitle{
-		font-size: 3vw;
-		clear: left;
-		text-align: center;
+	.pagetitle > h2{
+		font-size: 5vw;
 	}
 	.learntitle{
 		font-size: 3vw;
 	}
-	.learnsection > a{
-		font-size: 3vw;
+	a, p{
+		font-size: 2vw;
 	}
 	.video > iframe{
 		width: 100%;
 		height: 10%;
+	}
+	.videotitle, .effectstitle{
+		font-size: 3.5vw;
+	}
+	.videotitle{
+		margin: 0px -40% 0px;
+	}
+	.brackeysyt{
+		mdiplay: block;
+		margin: 0 0 -40px;
+		position: static;
 	}
 }
 			
