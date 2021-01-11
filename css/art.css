@@ -79,19 +79,40 @@ header.pagetitle{
 	margin-right: 10px;
 }
 /*Video Tutorial*/
+.videotitle{
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	margin: 0px -225px 0px;
+	position: absolute;
+	left: 50%;
+}
+.riotyt{
+    background: url('../images/youtube.png') no-repeat 0 0;
+	width: 44px;
+	height: 30px;
+	display: inline-block;
+	margin: 5px 190px 0px;
+	position: relative;
+	left: 50%;
+}
 .video{
 	margin-top: 10px;
 	padding: 10px;
 	background-color: #90C2E7;
 	border: solid 3px #364652;
 }
+.video > a:hover{
+	border: none;
+}
+.video > a:hover > div{
+	background: url('../images/youtube.png') no-repeat -45px 0;
+	width: 44px;
+	height: 30px;
+}
 .video > iframe{
 	width: 100%;
 	height: 700px;
-}
-.videotitle{
-	font-size: 30px;
-	text-align: center;
 }
 .videopart{
 	text-align: center;
